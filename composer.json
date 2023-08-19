@@ -1,0 +1,23 @@
+{
+    "name": "ircsasw/yii2-cms",
+    "description": "Simple content management system.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ircsasw\\Cms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ircsasw\\Cms\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturo",
+            "email": "ircsasw@gmail.com"
+        }
+    ],
+    "require": {}
+}
