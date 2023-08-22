@@ -3,6 +3,32 @@
     "description": "Simple content management system.",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ircsasw/yii2-cms/issues?state=open",
+        "source": "https://github.com/ircsasw/yii2-cms/issues"
+    },
+    "keywords": [
+        "ircsasw",
+        "yii",
+        "yii2",
+        "yii 2",
+        "yii framework",
+        "cms"
+    ],
+    "authors": [
+        {
+            "name": "Arturo",
+            "email": "ircsasw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2-bootstrap": "^2.0"
+    },
+    "require-dev": {
+        "php": ">=7.4"
+    },
     "autoload": {
         "psr-4": {
             "Ircsasw\\Cms\\": "src/"
@@ -13,11 +39,15 @@
             "Ircsasw\\Cms\\Tests\\": "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "Arturo",
-            "email": "ircsasw@gmail.com"
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "preferred-install": {
+            "*": "auto"
+        },
+        "fxp-asset": {
+            "enabled": false
         }
-    ],
-    "require": {}
+    }
 }
