@@ -9,7 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-namespace Ircsasw\Cms;
+namespace Ircsasw\cms;
 
 use yii\base\Module as BaseModule;
 

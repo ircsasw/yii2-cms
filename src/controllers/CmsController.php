@@ -9,7 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-namespace Ircsasw\Cms\controllers;
+namespace Ircsasw\cms\controllers;
 
 use yii\web\Controller;
 

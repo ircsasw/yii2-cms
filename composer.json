@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ircsasw\\Cms\\": "src/"
+            "Ircsasw\\cms\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ircsasw\\Cms\\Tests\\": "tests/"
+            "Ircsasw\\cms\\Tests\\": "tests/"
         }
     },
     "config": {
